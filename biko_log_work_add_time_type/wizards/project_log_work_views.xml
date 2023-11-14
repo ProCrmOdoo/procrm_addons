@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="biko_log_work_view_form_inherit" model="ir.ui.view">
+        <field name="name">biko.log.work.form.inherit</field>
+        <field name="model">project.task.log.work</field>
+        <field name="inherit_id" ref="biko_project_log_work.biko_log_work_view_form"/>
+        <field name="arch" type="xml">
+            <field name="log_time" position="after">
+                <field name="project_time_type" options="{'no_create': True, 'no_open': True}"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

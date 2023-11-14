@@ -1,0 +1,110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biko_timesheet_cost_by_timetype
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-18 22:39+0000\n"
+"PO-Revision-Date: 2023-03-19 00:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model,name:biko_timesheet_cost_by_timetype.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Рядок аналітики"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model,name:biko_timesheet_cost_by_timetype.model_hr_employee
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__employee_id
+msgid "Employee"
+msgstr "Співробітник"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_employee__id
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__id
+msgid "ID"
+msgstr "ІД"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_account_analytic_line____last_update
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost____last_update
+msgid "Last Modified on"
+msgstr "Останні зміни на"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__project_id
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__timesheet_cost
+msgid "Timesheet Cost"
+msgstr "Часова ставка"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_employee__timesheet_table_ids
+msgid "Timesheet Table"
+msgstr "Вартість часу у розрізі типу часу та проєктів"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model.fields,field_description:biko_timesheet_cost_by_timetype.field_hr_timesheet_type_cost__timesheet_type_id
+msgid "Timesheet Type"
+msgstr "Тип часу"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model:ir.model,name:biko_timesheet_cost_by_timetype.model_hr_timesheet_type_cost
+msgid "Timesheet Type Cost"
+msgstr "Timesheet Type Cost"
+
+#. module: biko_timesheet_cost_by_timetype
+#: model_terms:ir.ui.view,arch_db:biko_timesheet_cost_by_timetype.biko_hr_timesheet_type_cost
+msgid "Timesheet table"
+msgstr "Вартість часу у розрізі типу часу та проєктів"
