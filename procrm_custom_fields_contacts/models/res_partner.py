@@ -1,0 +1,42 @@
+from odoo import api, fields, models
+
+
+
+class ResPartner(models.Model):
+    _inherit = 'res.partner'
+
+    client_type = fields.Many2one(comodel_name='client.type', string='Client type')
+    motives = fields.Many2one(comodel_name='motives', string='Motives')
+    services = fields.Char(string="Services", help="What does company really do?")
+
+
+    what_is_important = fields.Char(string="What is important")
+    what_departments = fields.Char(string="What departments")
+    what_is_your_CMS = fields.Many2one(comodel_name='what.is.your.cms', string="What is your CMS?")
+    use_in_work = fields.Many2one(comodel_name='use.in.work', string="Use in work")
+    receive_a_Leads = fields.Many2one(comodel_name='receive.leads', string="Receive a Leads")
+    how_are_bp_described = fields.Char(string="How are bp described")
+
+    recommendation_from = fields.Many2one(comodel_name='res.partner', string="Recommendation_from")
+    bonus_for_recom = fields.Many2one(comodel_name='bonus.for.recom', string="Bonus_for_recom")
+    special_conditions = fields.Char(string="Special_conditions")
+
+    process_architecture = fields.Char(string="Process architecture")
+    video_meeting = fields.Char(string="Video meeting")
+    good_hour = fields.Char(string="Good hour")
+    commercial_offer = fields.Char(string="Commercial offer")
+
+    partner_type = fields.Many2one(comodel_name='partner', string="Partner type")
+    what_services = fields.Char(string="What services?")
+    referral_suffix = fields.Char(string="Referral suffix")
+    referral_link = fields.Char(string="Referral link")
+
+    portal_address = fields.Char(string="Portal address")
+    license_key = fields.Char(string="License key")
+
+    cooper_term = fields.Many2one(comodel_name='cooper.term', string="Cooper term")
+    license_start_date = fields.Date(string="License start date")
+    license_end_date = fields.Date(string="License end date")
+    date_next_contract = fields.Date(string="Date next contract")
+    strategy = fields.Char(string="Strategy")
+    contact_link = fields.Char(string="Contact link")

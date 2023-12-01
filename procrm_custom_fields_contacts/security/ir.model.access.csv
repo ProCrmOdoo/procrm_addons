@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_client_type,client.type,model_client_type,base.group_user,1,1,1,1
+access_motives,motives,model_motives,base.group_user,1,1,1,1
+access_what_is_your_cms,what.is.your.cms,model_what_is_your_cms,base.group_user,1,1,1,1
+access_use_in_work,use.in.work,model_use_in_work,base.group_user,1,1,1,1
+access_receive_leads,receive.leads,model_receive_leads,base.group_user,1,1,1,1
+access_bonus_for_recom,bonus.for.recom,model_bonus_for_recom,base.group_user,1,1,1,1
+access_partner,partner,model_partner,base.group_user,1,1,1,1
+access_cooper_term,cooper.term,model_cooper_term,base.group_user,1,1,1,1
+
