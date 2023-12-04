@@ -3,7 +3,7 @@
     "license": "LGPL-3",
     "version": "14.0.1.0.0",
     "author": "YevdokimovA",
-    "depends": ["base", "web"],
+    "depends": ["base", "web", "crm"],
     "data": [
         "security/ir.model.access.csv",
         "views/res_partner_view.xml",
@@ -15,6 +15,10 @@
         "views/contact_info_bonus_for_recom_view.xml",
         "views/additional_info_partner_view.xml",
         "views/control_cooper_term_view.xml",
+        "views/crm_lead_view.xml",
+        "views/control_next_opportunity_view.xml",
+        "views/payment_payment_method_view.xml",
+        "views/payment_form_of_payment_view.xml",
 
     ],
     "installable": True,

@@ -9,4 +9,9 @@ from . import (
     contact_info_bonus_for_recom,
     additional_info_partner,
     control_cooper_term,
+    crm_lead,
+    control_next_opportunity,
+    payment_payment_method,
+    payment_form_of_payment
+
 )
