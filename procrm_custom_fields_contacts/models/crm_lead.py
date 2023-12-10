@@ -5,23 +5,32 @@ from odoo import api, fields, models
 class CrmLead(models.Model):
     _inherit = 'crm.lead'
 
+    traffic_source = fields.Many2one(comodel_name='traffic.source', string="Traffic source")
+    more_source = fields.Char(string="More source")
+    deal_type = fields.Many2one(comodel_name='deal.type', string="Deal type")
+    Facebook = fields.Char(string="Facebook")
+    Telegram = fields.Char(string="Telegram")
+    Instagram = fields.Char(string="Instagram")
+    Viber = fields.Char(string="Viber")
+    Skype = fields.Char(string="Skype")
+
     client_type = fields.Many2one(comodel_name='client.type', string='Client type')
     motives = fields.Many2one(comodel_name='motives', string='Motives')
     services = fields.Char(string="Services", help="What does company really do?")
 
-    what_is_important = fields.Char(string="What is important")
+    what_is_important = fields.Char(string="What is important?")
     what_is_important_consult = fields.Char(string="What is important consult?")
-    what_departments = fields.Char(string="What departments")
+    what_departments = fields.Char(string="What departments?")
     what_is_your_CMS = fields.Many2one(comodel_name='what.is.your.cms', string="What is your CMS?")
     use_in_work = fields.Many2one(comodel_name='use.in.work', string="Use in work")
     receive_a_Leads = fields.Many2one(comodel_name='receive.leads', string="Receive a Leads")
-    how_are_bp_described = fields.Char(string="How are bp described")
+    how_are_bp_described = fields.Char(string="How are bp described?")
 
-    recommendation_from = fields.Many2one(comodel_name='res.partner', string="Recommendation_from")
-    bonus_for_recom = fields.Many2one(comodel_name='bonus.for.recom', string="Bonus_for_recom")
-    special_conditions = fields.Char(string="Special_conditions")
+    recommendation_from = fields.Many2one(comodel_name='res.partner', string="Recommendation from")
+    bonus_for_recom = fields.Many2one(comodel_name='bonus.for.recom', string="Bonus for recommendation")
+    special_conditions = fields.Char(string="Special conditions")
 
-    comment_on_payment = fields.Char(string="Comment on payment")
+    comment_to_payment = fields.Char(string="Comment to payment")
     payment_method = fields.Many2one(comodel_name='payment.method', string="Payment method")
     form_of_payment = fields.Many2one(comodel_name='form.payment', string="Form of payment")
     client_bonus = fields.Char(string="Client bonus")

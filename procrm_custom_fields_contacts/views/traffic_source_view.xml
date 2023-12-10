@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="traffic_source_form" model="ir.ui.view">
+        <field name="name">traffic.source.form</field>
+        <field name="model">traffic.source</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+     <record id="traffic_source_tree" model="ir.ui.view">
+        <field name="name">traffic.source.tree</field>
+        <field name="model">traffic.source</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="action_traffic_source" model="ir.actions.act_window">
+        <field name="name">Traffic source</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">traffic.source</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_traffic_source"
+        name="Traffic source"
+        parent="crm.crm_menu_config"
+        sequence="28"
+        action="action_traffic_source"
+    />
+</odoo>
+
+
+
+

@@ -3,7 +3,8 @@
     "license": "LGPL-3",
     "version": "14.0.1.0.0",
     "author": "YevdokimovA",
-    "depends": ["base", "web", "crm"],
+    "application": "True",
+    "depends": ["base", "web", "crm", "sale"],
     "data": [
         "security/ir.model.access.csv",
         "views/res_partner_view.xml",
@@ -19,7 +20,9 @@
         "views/control_next_opportunity_view.xml",
         "views/payment_payment_method_view.xml",
         "views/payment_form_of_payment_view.xml",
-
+        "views/traffic_source_view.xml",
+        "views/deal_type_view.xml",
+        "views/sale_order_view.xml",
     ],
     "installable": True,
 }

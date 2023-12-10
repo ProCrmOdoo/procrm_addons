@@ -12,6 +12,9 @@ from . import (
     crm_lead,
     control_next_opportunity,
     payment_payment_method,
-    payment_form_of_payment
+    payment_form_of_payment,
+    sale_order,
+    traffic_source,
+    deal_type,
 
 )
