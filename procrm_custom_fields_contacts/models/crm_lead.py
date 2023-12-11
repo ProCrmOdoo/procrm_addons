@@ -33,12 +33,12 @@ class CrmLead(models.Model):
     comment_to_payment = fields.Char(string="Comment to payment")
     payment_method = fields.Many2one(comodel_name='payment.method', string="Payment method")
     form_of_payment = fields.Many2one(comodel_name='form.payment', string="Form of payment")
-    client_bonus = fields.Char(string="Client bonus")
+    client_bonus = fields.Char(string="Client bonus", help="'-' if not available")
 
-    process_architecture = fields.Char(string="Process architecture")
+    process_architecture = fields.Char(string="Process architecture", help="Camunda")
     video_meeting = fields.Char(string="Video meeting")
-    good_hour = fields.Char(string="Good hour")
-    commercial_offer = fields.Char(string="Commercial offer")
+    good_hour = fields.Char(string="Good hour", help="'-' if not available")
+    commercial_offer = fields.Char(string="Commercial offer", help="'-' if not available")
 
     partner_type = fields.Many2one(comodel_name='partner', string="Partner type")
     what_services = fields.Char(string="What services?")

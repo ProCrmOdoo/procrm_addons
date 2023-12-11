@@ -9,4 +9,4 @@ class SaleOrder(models.Model):
     comment_to_payment = fields.Char(string="Comment to payment")
     payment_method = fields.Many2one(comodel_name='payment.method', string="Payment method")
     form_of_payment = fields.Many2one(comodel_name='form.payment', string="Form of payment")
-    client_bonus = fields.Char(string="Client bonus")
+    client_bonus = fields.Char(string="Client bonus", help="'-' if not available")

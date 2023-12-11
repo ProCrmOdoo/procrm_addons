@@ -16,6 +16,18 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__client_bonus
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_sale_order__client_bonus
+msgid "'-' if not available"
+msgstr "'-' якщо немає"
+
+#. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Accompanying links"
@@ -50,7 +62,7 @@ msgstr "Тип клієнта по АВС"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__client_bonus
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__client_bonus
 msgid "Client bonus"
-msgstr "Які бонуси для клієнта? Якщо немає ставимо '-'"
+msgstr "Які бонуси для клієнта?"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__client_type
@@ -70,7 +82,7 @@ msgstr "Коментар до оплати"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__commercial_offer
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__commercial_offer
 msgid "Commercial offer"
-msgstr "Комерційна пропозиція ('-' якщо немає)"
+msgstr "Комерційна пропозиція"
 
 #. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
@@ -210,7 +222,7 @@ msgstr "Форма оплати"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__good_hour
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__good_hour
 msgid "Good hour"
-msgstr "Година добра ('-' якщо немає)"
+msgstr "Година добра"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__how_are_bp_described
@@ -422,7 +434,7 @@ msgstr "Потенціал"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__process_architecture
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__process_architecture
 msgid "Process architecture"
-msgstr "Архітектура процесів (Camunda)"
+msgstr "Архітектура процесів"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_receive_leads

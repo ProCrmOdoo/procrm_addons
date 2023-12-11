@@ -16,6 +16,18 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__client_bonus
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_sale_order__client_bonus
+msgid "'-' if not available"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Accompanying links"

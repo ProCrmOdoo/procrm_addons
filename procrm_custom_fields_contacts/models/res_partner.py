@@ -28,10 +28,10 @@ class ResPartner(models.Model):
     bonus_for_recom = fields.Many2one(comodel_name='bonus.for.recom', string="Bonus for recom")
     special_conditions = fields.Char(string="Special conditions")
 
-    process_architecture = fields.Char(string="Process architecture")
+    process_architecture = fields.Char(string="Process architecture", help="Camunda")
     video_meeting = fields.Char(string="Video meeting")
-    good_hour = fields.Char(string="Good hour")
-    commercial_offer = fields.Char(string="Commercial offer")
+    good_hour = fields.Char(string="Good hour", help="'-' if not available")
+    commercial_offer = fields.Char(string="Commercial offer", help="'-' if not available")
 
     partner_type = fields.Many2one(comodel_name='partner', string="Partner type")
     what_services = fields.Char(string="What services?")
