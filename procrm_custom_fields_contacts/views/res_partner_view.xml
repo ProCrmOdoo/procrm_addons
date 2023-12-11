@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data>
         <record model="ir.ui.view" id="view_partner_form">
             <field name="name">view_contact_info_partner_form</field>
             <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="inherit_id" ref="base.view_partner_form" />
             <field name="arch" type="xml">
                 <xpath expr="//sheet/group/group[2]" position="after">
                     <group>
-                        <field name="traffic_source"/>
-                        <field name="more_source"/>
-                        <field name="Facebook"/>
-                        <field name="Telegram"/>
-                        <field name="Instagram"/>
-                        <field name="Viber"/>
-                        <field name="Skype"/>
+                        <field name="traffic_source" />
+                        <field name="more_source" />
+                        <field name="Facebook" />
+                        <field name="Telegram" />
+                        <field name="Instagram" />
+                        <field name="Viber" />
+                        <field name="Skype" />
                     </group>
                 </xpath>
 
@@ -22,54 +22,58 @@
                     <page string="Contact info" name="contact_info">
                         <group col="2">
                             <group string="Potential" name="potential" priority="1">
-                                <field name="client_type"/>
-                                <field name="motives"/>
-                                <field name="services"/>
+                                <field name="client_type" />
+                                <field name="motives" />
+                                <field name="services" />
                             </group>
                             <group string="Need" name="need" priority="2">
-                                <field name="what_is_important"/>
-                                <field name="what_departments"/>
-                                <field name="what_is_your_CMS"/>
-                                <field name="use_in_work"/>
-                                <field name="receive_a_Leads"/>
-                                <field name="how_are_bp_described"/>
+                                <field name="what_is_important" />
+                                <field name="what_departments" />
+                                <field name="what_is_your_CMS" />
+                                <field name="use_in_work" />
+                                <field name="receive_a_Leads" />
+                                <field name="how_are_bp_described" />
                             </group>
                             <group string="Recommendation" name="recommendation" priority="3">
-                                <field name="recommendation_from"/>
-                                <field name="bonus_for_recom"/>
-                                <field name="special_conditions"/>
+                                <field name="recommendation_from" />
+                                <field name="bonus_for_recom" />
+                                <field name="special_conditions" />
                             </group>
                         </group>
                     </page>
                     <page string="Additional info" name="additional_info">
                         <group col="2">
                             <group string="Accompanying links" name="accompanying_links" priority="1">
-                                <field name="process_architecture"/>
-                                <field name="video_meeting"/>
-                                <field name="good_hour"/>
-                                <field name="commercial_offer"/>
+                                <field name="process_architecture" />
+                                <field name="video_meeting" />
+                                <field name="good_hour" />
+                                <field name="commercial_offer" />
                             </group>
-                            <group string="Partner" name="partner" priority="2"
-                                   attrs="{'invisible': [('is_company','=', False)]}">
-                                <field name="partner_type"/>
-                                <field name="what_services"/>
-                                <field name="referral_suffix"/>
-                                <field name="referral_link"/>
+                            <group
+                                string="Partner"
+                                name="partner"
+                                priority="2"
+                                attrs="{'invisible': [('is_company','=', False)]}"
+                            >
+                                <field name="partner_type" />
+                                <field name="what_services" />
+                                <field name="referral_suffix" />
+                                <field name="referral_link" />
                             </group>
                             <group string="Technology field" name="technology_field" priority="3">
-                                <field name="portal_address"/>
-                                <field name="license_key"/>
+                                <field name="portal_address" />
+                                <field name="license_key" />
                             </group>
                         </group>
                     </page>
                     <page string="Control" name="control">
                         <group>
-                            <field name="cooper_term"/>
-                            <field name="license_start_date"/>
-                            <field name="license_end_date"/>
-                            <field name="date_next_contract"/>
-                            <field name="strategy"/>
-                            <field name="contact_link"/>
+                            <field name="cooper_term" />
+                            <field name="license_start_date" />
+                            <field name="license_end_date" />
+                            <field name="date_next_contract" />
+                            <field name="strategy" />
+                            <field name="contact_link" />
                         </group>
                     </page>
                 </notebook>

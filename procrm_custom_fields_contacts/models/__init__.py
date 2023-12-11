@@ -16,5 +16,4 @@ from . import (
     sale_order,
     traffic_source,
     deal_type,
-
 )

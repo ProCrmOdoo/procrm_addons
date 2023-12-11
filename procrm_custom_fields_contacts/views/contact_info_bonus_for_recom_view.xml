@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
     <record id="bonus_for_recom_form" model="ir.ui.view">
         <field name="name">bonus.for.recom.form</field>
         <field name="model">bonus.for.recom</field>
@@ -8,25 +7,24 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="description"/>
+                        <field name="name" />
+                        <field name="description" />
                     </group>
                 </sheet>
             </form>
         </field>
     </record>
 
-     <record id="bonus_for_recom_tree" model="ir.ui.view">
+    <record id="bonus_for_recom_tree" model="ir.ui.view">
         <field name="name">bonus.for.recom.tree</field>
         <field name="model">bonus.for.recom</field>
         <field name="arch" type="xml">
             <tree editable="top">
-                <field name="name"/>
-                <field name="description"/>
+                <field name="name" />
+                <field name="description" />
             </tree>
         </field>
     </record>
-
 
     <record id="action_bonus_for_recom" model="ir.actions.act_window">
         <field name="name">Bonus for recom</field>
@@ -43,7 +41,3 @@
         action="action_bonus_for_recom"
     />
 </odoo>
-
-
-
-
