@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
     <record id="use_in_work_form" model="ir.ui.view">
         <field name="name">use.in.work.form</field>
         <field name="model">use.in.work</field>
@@ -8,25 +7,24 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="description"/>
+                        <field name="name" />
+                        <field name="description" />
                     </group>
                 </sheet>
             </form>
         </field>
     </record>
 
-     <record id="use_in_work_tree" model="ir.ui.view">
+    <record id="use_in_work_tree" model="ir.ui.view">
         <field name="name">use.in.work.tree</field>
         <field name="model">use.in.work</field>
         <field name="arch" type="xml">
             <tree editable="top">
-                <field name="name"/>
-                <field name="description"/>
+                <field name="name" />
+                <field name="description" />
             </tree>
         </field>
     </record>
-
 
     <record id="action_use_in_work" model="ir.actions.act_window">
         <field name="name">Use in work</field>
@@ -43,7 +41,3 @@
         action="action_use_in_work"
     />
 </odoo>
-
-
-
-

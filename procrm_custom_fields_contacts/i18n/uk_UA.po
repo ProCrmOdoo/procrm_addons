@@ -196,14 +196,14 @@ msgstr "Опис"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Facebook
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Facebook
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Facebook
 msgid "Facebook"
-msgstr "Facebook"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__form_of_payment
@@ -253,14 +253,14 @@ msgstr "Як описані бізнес-процеси, стандарти та
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Instagram
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Instagram
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Instagram
 msgid "Instagram"
-msgstr "Instagram"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom____last_update
@@ -479,7 +479,7 @@ msgstr "Реферальний суфікс"
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_res_partner
 msgid "Res partner Sequences"
-msgstr "Res partner Sequences"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_sale_order
@@ -498,7 +498,7 @@ msgstr "Чим саме займається компанія?"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Skype
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Skype
 msgid "Skype"
-msgstr "Skype"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__special_conditions
@@ -525,7 +525,7 @@ msgstr "Техполя"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Telegram
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Telegram
 msgid "Telegram"
-msgstr "Telegram"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_traffic_source
@@ -550,7 +550,7 @@ msgstr "Чим користуєтесь в роботі?"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Viber
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Viber
 msgid "Viber"
-msgstr "Viber"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__video_meeting
@@ -571,7 +571,7 @@ msgstr "Які відділи є в компанії?"
 #: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__services
 #: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__services
 msgid "What does company really do?"
-msgstr "What does company really do?"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_is_important_consult
@@ -608,64 +608,64 @@ msgstr "Які послуги?(партнер)"
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_bonus_for_recom
 msgid "bonus.for.recom"
-msgstr "bonus.for.recom"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_client_type
 msgid "client.type"
-msgstr "client.type"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_cooper_term
 msgid "cooper.term"
-msgstr "cooper.term"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_deal_type
 msgid "deal.type"
-msgstr "deal.type"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_form_payment
 msgid "form.payment"
-msgstr "form.payment"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_motives
 msgid "motives"
-msgstr "motives"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_next_opportunity
 msgid "next.opportunity"
-msgstr "next.opportunity"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_partner
 msgid "partner"
-msgstr "partner"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_payment_method
 msgid "payment.method"
-msgstr "payment.method"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_receive_leads
 msgid "receive.leads"
-msgstr "receive.leads"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_traffic_source
 msgid "traffic.source"
-msgstr "traffic.source"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_use_in_work
 msgid "use.in.work"
-msgstr "use.in.work"
+msgstr ""
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_what_is_your_cms
 msgid "what.is.your.cms"
-msgstr "what.is.your.cms"
+msgstr ""
