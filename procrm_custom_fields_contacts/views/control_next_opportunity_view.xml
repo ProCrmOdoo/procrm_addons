@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="next_opportunity_form" model="ir.ui.view">
+        <field name="name">next.opportunity.form</field>
+        <field name="model">next.opportunity</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+     <record id="next_opportunity_tree" model="ir.ui.view">
+        <field name="name">next.opportunity.tree</field>
+        <field name="model">next.opportunity</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="action_next_opportunity" model="ir.actions.act_window">
+        <field name="name">Next opportunity</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">next.opportunity</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_next_opportunity"
+        name="Next opportunity"
+        parent="crm.crm_menu_config"
+        sequence="38"
+        action="action_next_opportunity"
+    />
+</odoo>
+
+
+
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_crm_lead_form">
+            <field name="name">view_crm_lead_form</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet/group/group[5]" position="after">
+                    <group>
+                        <field name="traffic_source"/>
+                        <field name="more_source"/>
+                        <field name="deal_type"
+                        attrs="{'invisible': [('type','=', 'lead')]}"/>
+                        <field name="Facebook"
+                        attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                        <field name="Telegram"
+                        attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                        <field name="Instagram"
+                        attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                        <field name="Viber"
+                        attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                        <field name="Skype"
+                        attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                    </group>
+                </xpath>
+
+                    <notebook position="inside">
+                        <page string="Contact info" name="contact_info">
+                            <group col="2">
+                                <group string="Potential" name="potential" priority="1">
+                                    <field name="client_type"
+                                    attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                                    <field name="motives"/>
+                                    <field name="services"
+                                    attrs="{'invisible': [('type','=', 'opportunity')]}"/>
+                                </group>
+                                <group string="Need" name="need" priority="2">
+                                    <field name="what_is_important"/>
+                                    <field name="what_is_important_consult"/>
+                                    <field name="what_departments"
+                                    attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                    <field name="what_is_your_CMS"/>
+                                    <field name="use_in_work"/>
+                                    <field name="receive_a_Leads"
+                                    attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                    <field name="how_are_bp_described"
+                                    attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                </group>
+                                <group string="Recommendation" name="recommendation" priority="3">
+                                    <field name="recommendation_from"/>
+                                    <field name="bonus_for_recom"/>
+                                    <field name="special_conditions"/>
+                                </group>
+                                <group string="Payment" name="payment" priority="4"
+                                attrs="{'invisible': [('type','=', 'lead')]}">
+                                    <field name="comment_to_payment"/>
+                                    <field name="payment_method"/>
+                                    <field name="form_of_payment"/>
+                                    <field name="client_bonus"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Additional info" name="additional_info">
+                            <group col="2">
+                                <group string="Accompanying links" name="accompanying_links" priority="1"
+                                attrs="{'invisible': [('type','=', 'lead')]}">
+                                        <field name="process_architecture"/>
+                                        <field name="video_meeting"/>
+                                        <field name="good_hour"/>
+                                        <field name="commercial_offer"/>
+                                </group>
+                                <group string="Partner" name="partner" priority="2">
+                                        <field name="partner_type"/>
+                                        <field name="what_services"/>
+                                        <field name="referral_suffix"
+                                        attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                        <field name="referral_link"
+                                        attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                </group>
+                                <group string="Technology field" name="technology_field" priority="3"
+                                attrs="{'invisible': [('type','=', 'lead')]}">
+                                        <field name="portal_address"/>
+                                        <field name="license_key"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Control" name="control">
+                            <group>
+                                <field name="cooper_term"/>
+                                <field name="license_start_date"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                <field name="license_end_date"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                <field name="next_opportunity"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                <field name="date_next_contract"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                <field name="strategy"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                                <field name="contact_link"
+                                attrs="{'invisible': [('type','=', 'lead')]}"/>
+                            </group>
+                        </page>
+                    </notebook>
+            </field>
+        </record>
+    </data>
+</odoo>
