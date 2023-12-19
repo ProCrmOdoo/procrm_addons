@@ -3,10 +3,11 @@
 
 import json
 
-from odoo.addons.web.controllers import main as report
 from odoo.http import content_disposition, request, route, serialize_exception
 from odoo.tools import html_escape
 from odoo.tools.safe_eval import safe_eval
+
+from odoo.addons.web.controllers import main as report
 
 
 class ReportController(report.ReportController):
@@ -32,7 +33,7 @@ class ReportController(report.ReportController):
                 if data["context"].get("lang"):
                     del data["context"]["lang"]
                 context.update(data["context"])
-            docx = report.with_context(context)._render_docx(docids, data=data)[0]
+            docx = report.with_context(**context)._render_docx(docids, data=data)[0]
             report_name = report.name
             if report.print_report_name and not len(docids) > 1:
                 obj = request.env[report.model].browse(docids[0])

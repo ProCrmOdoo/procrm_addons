@@ -8,6 +8,7 @@ from io import BytesIO
 
 import babel
 from docxtpl import DocxTemplate
+
 from odoo import _, api, fields, models, tools
 from odoo.exceptions import UserError
 
