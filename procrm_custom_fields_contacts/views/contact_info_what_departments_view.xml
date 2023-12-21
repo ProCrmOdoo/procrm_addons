@@ -37,7 +37,7 @@
         id="menu_what_departments"
         name="What Departments"
         parent="crm.crm_menu_config"
-        sequence="34"
+        sequence="24"
         action="action_what_departments"
     />
 </odoo>

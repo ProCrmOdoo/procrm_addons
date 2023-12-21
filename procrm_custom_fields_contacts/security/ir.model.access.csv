@@ -6,7 +6,6 @@ access_use_in_work,use.in.work,model_use_in_work,base.group_user,1,1,1,1
 access_receive_leads,receive.leads,model_receive_leads,base.group_user,1,1,1,1
 access_bonus_for_recom,bonus.for.recom,model_bonus_for_recom,base.group_user,1,1,1,1
 access_partner,partner,model_partner,base.group_user,1,1,1,1
-access_cooper_term,cooper.term,model_cooper_term,base.group_user,1,1,1,1
 access_next_opportunity,next.opportunity,model_next_opportunity,base.group_user,1,1,1,1
 access_payment_method,payment.method,model_payment_method,base.group_user,1,1,1,1
 access_form_payment,form.payment,model_form_payment,base.group_user,1,1,1,1

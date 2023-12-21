@@ -37,7 +37,7 @@
         id="menu_what_services"
         name="What services"
         parent="crm.crm_menu_config"
-        sequence="31"
+        sequence="33"
         action="action_what_services"
     />
 </odoo>

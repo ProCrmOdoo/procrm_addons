@@ -37,7 +37,7 @@
         id="menu_what_is_your_cms"
         name="What is your cms"
         parent="crm.crm_menu_config"
-        sequence="32"
+        sequence="25"
         action="action_what_is_your_cms"
     />
 </odoo>

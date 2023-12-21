@@ -15,30 +15,46 @@ class CrmLead(models.Model):
     Viber = fields.Char(string="Viber")
     Skype = fields.Char(string="Skype")
 
+    # Basic Information
+    # Potential
     client_type = fields.Many2one(comodel_name="client.type", string="Client type")
     motives = fields.Many2many(comodel_name="motives", string="Motives")
     services = fields.Char(string="Services", help="What does company really do?")
 
-    what_is_important = fields.Char(string="What is important?")
-    what_is_important_consult = fields.Char(string="What is important consult?")
-    what_departments = fields.Char(string="What departments?")
-    what_is_your_CMS = fields.Many2one(
+    # Neded
+    what_departments = fields.Many2many(
+        comodel_name="what.departments", string="What departments?"
+    )
+    departments_other = fields.Text(string="What departments (Other)?")
+    what_is_your_CMS = fields.Many2many(
         comodel_name="what.is.your.cms", string="What is your CMS?"
     )
     use_in_work = fields.Many2many(comodel_name="use.in.work", string="Use in work")
-    receive_a_Leads = fields.Many2one(
+    use_in_work_other = fields.Text(string="Use in work - other")
+    how_are_bp_described = fields.Char(string="How are bp described")
+    receive_a_Leads = fields.Many2many(
         comodel_name="receive.leads", string="Receive a Leads"
     )
-    how_are_bp_described = fields.Char(string="How are bp described?")
-
-    recommendation_from = fields.Many2one(
-        comodel_name="res.partner", string="Recommendation from"
+    receive_a_Leads_other = fields.Text(string="Receive a leads - other")
+    what_is_important = fields.Many2many(
+        comodel_name="what.is.important", string="What is important?"
     )
-    bonus_for_recom = fields.Many2one(
-        comodel_name="bonus.for.recom", string="Bonus for recommendation"
-    )
-    special_conditions = fields.Char(string="Special conditions")
+    what_is_important_other = fields.Text(string="What is important? - Other")
+    number_of_users = fields.Char(string="How many users are planned?")
+    what_is_important_consult = fields.Text(string="What is important consult?")
 
+    # License
+    license_now = fields.Many2many(comodel_name="license.now", string="License now")
+    license_buy = fields.Many2many(comodel_name="license.buy", string="License buy")
+    license_start_date = fields.Date(string="License start date")
+    license_end_date = fields.Date(string="License end date")
+    portal_address = fields.Many2many(
+        comodel_name="portal.address", string="Portal address"
+    )  # множине посилання?
+    license_key = fields.Text(string="License key")
+
+    # Payment
+    cooper_term = fields.Many2many(comodel_name="cooper.term", string="Cooper term")
     comment_to_payment = fields.Char(string="Comment to payment")
     payment_method = fields.Many2one(
         comodel_name="payment.method", string="Payment method"
@@ -48,6 +64,7 @@ class CrmLead(models.Model):
     )
     client_bonus = fields.Char(string="Client bonus", help="'-' if not available")
 
+    # Document
     process_architecture = fields.Char(string="Process architecture", help="Camunda")
     video_meeting = fields.Char(string="Video meeting")
     good_hour = fields.Char(string="Good hour", help="'-' if not available")
@@ -55,17 +72,26 @@ class CrmLead(models.Model):
         string="Commercial offer", help="'-' if not available"
     )
 
+    # Additional Info
+    # Partner
     partner_type = fields.Many2one(comodel_name="partner", string="Partner type")
-    what_services = fields.Char(string="What services?")
+    what_services = fields.Many2many(
+        comodel_name="what.services", string="What services?"
+    )
     referral_suffix = fields.Char(string="Referral suffix")
     referral_link = fields.Char(string="Referral link")
+    promo_code = fields.Char(string="Promo code")
 
-    portal_address = fields.Char(string="Portal address")
-    license_key = fields.Char(string="License key")
+    # Recomendation
+    recommendation_from = fields.Many2one(
+        comodel_name="res.partner", string="Recommendation from"
+    )
+    bonus_for_recom = fields.Many2one(
+        comodel_name="bonus.for.recom", string="Bonus for recom"
+    )
+    special_conditions = fields.Text(string="Special conditions")
 
-    cooper_term = fields.Many2one(comodel_name="cooper.term", string="Cooper term")
-    license_start_date = fields.Date(string="License start date")
-    license_end_date = fields.Date(string="License end date")
+    # Control
     next_opportunity = fields.Many2many(
         comodel_name="next.opportunity", string="Next opportunity"
     )

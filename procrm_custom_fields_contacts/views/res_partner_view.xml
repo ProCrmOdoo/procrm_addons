@@ -19,7 +19,7 @@
                 </xpath>
 
                 <notebook position="inside">
-                    <page string="Basic information" name="Basic information">
+                    <page string="Basic information" name="basic_information">
                         <group name="Basic information" col="2">
                             <group string="Potential" name="potential" priority="1">
                                 <field name="client_type" />
@@ -45,19 +45,11 @@
                                 />
                             </group>
                             <group string="License" name="license" priority="3">
-                                <field
-                                    name="license_now"
-                                    widget="many2many_tags"
-                                    attrs="{'invisible': [('is_company','=', False)]}"
-                                />
-                                <field
-                                    name="license_buy"
-                                    widget="many2many_tags"
-                                    attrs="{'invisible': [('is_company','=', False)]}"
-                                />
+                                <field name="license_now" widget="many2many_tags" />
+                                <field name="license_buy" widget="many2many_tags" />
                                 <field name="license_start_date" />
                                 <field name="license_end_date" />
-                                <field name="portal_address" widget="many2many_tags" />
+                                <field name="portal_address" />
                                 <field name="license_key" />
                             </group>
                             <group string="Payment" name="payment" priority="4">

@@ -37,7 +37,7 @@
         id="menu_client_type"
         name="Client Type"
         parent="crm.crm_menu_config"
-        sequence="30"
+        sequence="22"
         action="action_client_type"
     />
 </odoo>

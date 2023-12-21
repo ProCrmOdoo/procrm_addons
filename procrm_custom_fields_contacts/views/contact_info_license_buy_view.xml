@@ -37,7 +37,7 @@
         id="menu_license_buy"
         name="License buy"
         parent="crm.crm_menu_config"
-        sequence="31"
+        sequence="30"
         action="action_license_buy"
     />
 </odoo>

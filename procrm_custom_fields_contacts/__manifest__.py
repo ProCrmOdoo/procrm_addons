@@ -15,7 +15,6 @@
         "views/contact_info_receive_leads_view.xml",
         "views/contact_info_bonus_for_recom_view.xml",
         "views/additional_info_partner_view.xml",
-        "views/control_cooper_term_view.xml",
         "views/crm_lead_view.xml",
         "views/control_next_opportunity_view.xml",
         "views/payment_payment_method_view.xml",

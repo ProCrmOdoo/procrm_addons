@@ -37,7 +37,7 @@
         id="menu_next_opportunity"
         name="Next opportunity"
         parent="crm.crm_menu_config"
-        sequence="38"
+        sequence="37"
         action="action_next_opportunity"
     />
 </odoo>

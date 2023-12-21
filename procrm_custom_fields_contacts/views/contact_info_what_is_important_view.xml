@@ -37,7 +37,7 @@
         id="menu_what_is_important"
         name="What is important"
         parent="crm.crm_menu_config"
-        sequence="34"
+        sequence="28"
         action="action_what_is_important"
     />
 </odoo>
