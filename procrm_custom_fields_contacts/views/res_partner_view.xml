@@ -18,8 +18,8 @@
                     </group>
                 </xpath>
 
-                <notebook position="inside">
-                    <page string="Basic information" name="basic_information">
+                <xpath expr="//sheet/notebook/page[@name='contact_addresses']" position="before">
+                    <page string="Basic information" name="basic_information" autofocus="autofocus">
                         <group name="Basic information" col="2">
                             <group string="Potential" name="potential" priority="1">
                                 <field name="client_type" />
@@ -86,7 +86,7 @@
                             <field name="contact_link" widget="url" />
                         </group>
                     </page>
-                </notebook>
+                </xpath>
             </field>
         </record>
     </data>

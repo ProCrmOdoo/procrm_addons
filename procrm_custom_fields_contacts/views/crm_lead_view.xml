@@ -19,8 +19,8 @@
                     </group>
                 </xpath>
 
-                <notebook position="inside">
-                    <page string="Basic information" name="Basic information">
+                <xpath expr="//sheet/notebook/page[@name='internal_notes']" position="before">
+                    <page string="Basic information" name="Basic information" autofocus="autofocus">
                         <group name="Basic information" col="2">
                             <group string="Potential" name="potential" priority="1">
                                 <field name="client_type" />
@@ -96,7 +96,7 @@
                             <field name="strategy" />
                         </group>
                     </page>
-                </notebook>
+                </xpath>
             </field>
         </record>
     </data>

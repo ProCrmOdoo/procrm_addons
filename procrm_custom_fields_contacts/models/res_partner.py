@@ -1,3 +1,5 @@
+from defusedxml import lxml
+
 from odoo import fields, models
 
 
@@ -81,3 +83,25 @@ class ResPartner(models.Model):
     date_next_contract = fields.Date(string="Date next contract")
     strategy = fields.Char(string="Strategy")
     contact_link = fields.Char(string="Contact link")
+
+    def fields_view_get(
+        self, view_id=None, view_type="form", toolbar=False, submenu=False
+    ):
+        result = super().fields_view_get(
+            view_id=view_id, view_type=view_type, toolbar=toolbar, submenu=submenu
+        )
+
+        if view_type == "form":
+            document = lxml.XML(result["arch"])
+            elements = document.xpath(
+                "//sheet/notebook/page[@name='contact_addresses']"
+            )
+            if not len(elements):
+                return result
+
+            el = elements[0]
+            el.attrib["autofocus"] = ""
+
+            result["arch"] = lxml.tostring(document)
+
+        return result
