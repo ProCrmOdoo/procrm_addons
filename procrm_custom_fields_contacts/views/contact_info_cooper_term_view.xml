@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="cooper_term_form" model="ir.ui.view">
+        <field name="name">cooper.term.form</field>
+        <field name="model">cooper.term</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="cooper_term_tree" model="ir.ui.view">
+        <field name="name">cooper.term.tree</field>
+        <field name="model">cooper.term</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_cooper_term" model="ir.actions.act_window">
+        <field name="name">Cooper term</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cooper.term</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_cooper_term"
+        name="Cooper term"
+        parent="crm.crm_menu_config"
+        sequence="31"
+        action="action_cooper_term"
+    />
+</odoo>

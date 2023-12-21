@@ -16,4 +16,11 @@ from . import (
     sale_order,
     traffic_source,
     deal_type,
+    contact_info_what_departments,
+    contact_info_what_is_important,
+    contact_info_license_now,
+    contact_info_license_buy,
+    contact_info_portal_address,
+    contact_info_cooper_term,
+    contact_info_what_services,
 )

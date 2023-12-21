@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="crm.crm_lead_view_form" />
             <field name="arch" type="xml">
                 <xpath expr="//sheet/group/group[5]" position="after">
-                    <group>
+                    <group name="social">
                         <field name="traffic_source" />
                         <field name="more_source" />
                         <field name="deal_type" attrs="{'invisible': [('type','=', 'lead')]}" />
@@ -21,7 +21,7 @@
 
                 <notebook position="inside">
                     <page string="Contact info" name="contact_info">
-                        <group col="2">
+                        <group name="contact_info" col="2">
                             <group string="Potential" name="potential" priority="1">
                                 <field name="client_type" attrs="{'invisible': [('type','=', 'opportunity')]}" />
                                 <field name="motives" />
@@ -32,7 +32,7 @@
                                 <field name="what_is_important_consult" />
                                 <field name="what_departments" attrs="{'invisible': [('type','=', 'lead')]}" />
                                 <field name="what_is_your_CMS" />
-                                <field name="use_in_work" />
+                                <field name="use_in_work" widget="many2many_tags" />
                                 <field name="receive_a_Leads" attrs="{'invisible': [('type','=', 'lead')]}" />
                                 <field name="how_are_bp_described" attrs="{'invisible': [('type','=', 'lead')]}" />
                             </group>
@@ -55,7 +55,7 @@
                         </group>
                     </page>
                     <page string="Additional info" name="additional_info">
-                        <group col="2">
+                        <group name="additional_info" col="2">
                             <group
                                 string="Accompanying links"
                                 name="accompanying_links"
@@ -67,16 +67,10 @@
                                 <field name="good_hour" />
                                 <field name="commercial_offer" />
                             </group>
-                            <group string="Partner" name="partner" priority="2">
-                                <field name="partner_type" />
-                                <field name="what_services" />
-                                <field name="referral_suffix" attrs="{'invisible': [('type','=', 'lead')]}" />
-                                <field name="referral_link" attrs="{'invisible': [('type','=', 'lead')]}" />
-                            </group>
                             <group
                                 string="Technology field"
                                 name="technology_field"
-                                priority="3"
+                                priority="2"
                                 attrs="{'invisible': [('type','=', 'lead')]}"
                             >
                                 <field name="portal_address" />
@@ -84,8 +78,16 @@
                             </group>
                         </group>
                     </page>
+                    <page string="Partner" name="partner">
+                        <group name="partner" priority="2">
+                            <field name="partner_type" />
+                            <field name="what_services" />
+                            <field name="referral_suffix" attrs="{'invisible': [('type','=', 'lead')]}" />
+                            <field name="referral_link" attrs="{'invisible': [('type','=', 'lead')]}" />
+                        </group>
+                    </page>
                     <page string="Control" name="control">
-                        <group>
+                        <group name="control">
                             <field name="cooper_term" />
                             <field name="license_start_date" attrs="{'invisible': [('type','=', 'lead')]}" />
                             <field name="license_end_date" attrs="{'invisible': [('type','=', 'lead')]}" />

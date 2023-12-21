@@ -23,6 +23,13 @@
         "views/traffic_source_view.xml",
         "views/deal_type_view.xml",
         "views/sale_order_view.xml",
+        "views/contact_info_what_departments_view.xml",
+        "views/contact_info_what_is_important_view.xml",
+        "views/contact_info_license_now_view.xml",
+        "views/contact_info_license_buy_view.xml",
+        "views/contact_info_portal_address_view.xml",
+        "views/contact_info_cooper_term_view.xml",
+        "views/contact_info_what_services_view.xml",
     ],
     "installable": True,
 }

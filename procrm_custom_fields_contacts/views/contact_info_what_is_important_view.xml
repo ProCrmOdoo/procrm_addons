@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="what_is_important_form" model="ir.ui.view">
+        <field name="name">what.is.important.form</field>
+        <field name="model">what.is.important</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="what_is_important_tree" model="ir.ui.view">
+        <field name="name">what.is.important.tree</field>
+        <field name="model">what.is.important</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_what_is_important" model="ir.actions.act_window">
+        <field name="name">What is important</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">what.is.important</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_what_is_important"
+        name="What is important"
+        parent="crm.crm_menu_config"
+        sequence="34"
+        action="action_what_is_important"
+    />
+</odoo>

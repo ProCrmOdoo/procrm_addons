@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="portal_address_form" model="ir.ui.view">
+        <field name="name">portal.address.form</field>
+        <field name="model">portal.address</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="portal_address_tree" model="ir.ui.view">
+        <field name="name">portal.address.tree</field>
+        <field name="model">portal.address</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_portal_address" model="ir.actions.act_window">
+        <field name="name">Portal address</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">portal.address</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_portal_address"
+        name="Portal address"
+        parent="crm.crm_menu_config"
+        sequence="31"
+        action="action_portal_address"
+    />
+</odoo>

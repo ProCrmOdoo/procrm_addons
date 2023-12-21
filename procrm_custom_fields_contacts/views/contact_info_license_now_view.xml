@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="license_now_form" model="ir.ui.view">
+        <field name="name">license.now.form</field>
+        <field name="model">license.now</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="license_now_tree" model="ir.ui.view">
+        <field name="name">license.now.tree</field>
+        <field name="model">license.now</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_license_now" model="ir.actions.act_window">
+        <field name="name">License now</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">license.now</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_license_now"
+        name="License now"
+        parent="crm.crm_menu_config"
+        sequence="31"
+        action="action_license_now"
+    />
+</odoo>

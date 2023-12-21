@@ -16,7 +16,7 @@ class CrmLead(models.Model):
     Skype = fields.Char(string="Skype")
 
     client_type = fields.Many2one(comodel_name="client.type", string="Client type")
-    motives = fields.Many2one(comodel_name="motives", string="Motives")
+    motives = fields.Many2many(comodel_name="motives", string="Motives")
     services = fields.Char(string="Services", help="What does company really do?")
 
     what_is_important = fields.Char(string="What is important?")
@@ -25,7 +25,7 @@ class CrmLead(models.Model):
     what_is_your_CMS = fields.Many2one(
         comodel_name="what.is.your.cms", string="What is your CMS?"
     )
-    use_in_work = fields.Many2one(comodel_name="use.in.work", string="Use in work")
+    use_in_work = fields.Many2many(comodel_name="use.in.work", string="Use in work")
     receive_a_Leads = fields.Many2one(
         comodel_name="receive.leads", string="Receive a Leads"
     )
@@ -66,7 +66,7 @@ class CrmLead(models.Model):
     cooper_term = fields.Many2one(comodel_name="cooper.term", string="Cooper term")
     license_start_date = fields.Date(string="License start date")
     license_end_date = fields.Date(string="License end date")
-    next_opportunity = fields.Many2one(
+    next_opportunity = fields.Many2many(
         comodel_name="next.opportunity", string="Next opportunity"
     )
     date_next_contract = fields.Date(string="Date next contract")
