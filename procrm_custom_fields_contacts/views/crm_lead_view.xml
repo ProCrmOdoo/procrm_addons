@@ -50,7 +50,7 @@
                                 />
                                 <field name="license_start_date" attrs="{'invisible': [('type','=', 'lead')]}" />
                                 <field name="license_end_date" attrs="{'invisible': [('type','=', 'lead')]}" />
-                                <field name="portal_address" widget="many2many_tags" />
+                                <field name="portal_address" />
                                 <field name="license_key" />
                             </group>
                             <group string="Payment" name="payment" priority="4">
@@ -78,8 +78,8 @@
                             <group string="Partner" name="partner" priority="1">
                                 <field name="partner_type" />
                                 <field name="what_services" widget="many2many_tags" />
-                                <field name="referral_suffix" widget="url" />
-                                <field name="referral_link" />
+                                <field name="referral_suffix" />
+                                <field name="referral_link" widget="url" />
                                 <field name="promo_code" />
                             </group>
                             <group string="Recommendation" name="recommendation" priority="2">

@@ -1,7 +1,7 @@
 {
     "name": "Contacts custom fields contacts",
     "license": "LGPL-3",
-    "version": "14.0.1.0.0",
+    "version": "14.0.2.0.0",
     "author": "YevdokimovA",
     "application": "True",
     "depends": ["base", "web", "crm", "sale"],
