@@ -33,5 +33,5 @@
         <field name="view_mode">tree</field>
     </record>
 
-    <menuitem id="menu_partner" name="Partner" parent="crm.crm_menu_config" sequence="36" action="action_partner" />
+    <menuitem id="menu_partner" name="Partner" parent="crm.crm_menu_config" sequence="32" action="action_partner" />
 </odoo>

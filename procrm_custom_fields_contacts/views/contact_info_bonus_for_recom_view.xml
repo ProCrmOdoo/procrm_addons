@@ -37,7 +37,7 @@
         id="menu_bonus_for_recom"
         name="Bonus for recom"
         parent="crm.crm_menu_config"
-        sequence="35"
+        sequence="34"
         action="action_bonus_for_recom"
     />
 </odoo>

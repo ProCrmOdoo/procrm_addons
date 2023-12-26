@@ -37,7 +37,7 @@
         id="menu_receive_leads"
         name="Receive Leads"
         parent="crm.crm_menu_config"
-        sequence="34"
+        sequence="27"
         action="action_receive_leads"
     />
 </odoo>

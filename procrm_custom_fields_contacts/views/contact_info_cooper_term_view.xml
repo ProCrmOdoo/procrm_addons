@@ -37,7 +37,7 @@
         id="menu_cooper_term"
         name="Cooper term"
         parent="crm.crm_menu_config"
-        sequence="37"
+        sequence="31"
         action="action_cooper_term"
     />
 </odoo>

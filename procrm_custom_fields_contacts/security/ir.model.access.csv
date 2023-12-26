@@ -6,9 +6,15 @@ access_use_in_work,use.in.work,model_use_in_work,base.group_user,1,1,1,1
 access_receive_leads,receive.leads,model_receive_leads,base.group_user,1,1,1,1
 access_bonus_for_recom,bonus.for.recom,model_bonus_for_recom,base.group_user,1,1,1,1
 access_partner,partner,model_partner,base.group_user,1,1,1,1
-access_cooper_term,cooper.term,model_cooper_term,base.group_user,1,1,1,1
 access_next_opportunity,next.opportunity,model_next_opportunity,base.group_user,1,1,1,1
 access_payment_method,payment.method,model_payment_method,base.group_user,1,1,1,1
 access_form_payment,form.payment,model_form_payment,base.group_user,1,1,1,1
 access_traffic_source,traffic.source,model_traffic_source,base.group_user,1,1,1,1
 access_deal_type,deal.type,model_deal_type,base.group_user,1,1,1,1
+access_what_departments,what.departments,model_what_departments,base.group_user,1,1,1,1
+access_what_is_important,what.is.important,model_what_is_important,base.group_user,1,1,1,1
+access_license_now,license.now,model_license_now,base.group_user,1,1,1,1
+access_license_buy,license.buy,model_license_buy,base.group_user,1,1,1,1
+access_portal_address,portal.address,model_portal_address,base.group_user,1,1,1,1
+access_cooper_term,cooper.term,model_cooper_term,base.group_user,1,1,1,1
+access_what_services,what.services,model_what_services,base.group_user,1,1,1,1

@@ -37,7 +37,7 @@
         id="menu_use_in_work"
         name="Use in work"
         parent="crm.crm_menu_config"
-        sequence="33"
+        sequence="26"
         action="action_use_in_work"
     />
 </odoo>

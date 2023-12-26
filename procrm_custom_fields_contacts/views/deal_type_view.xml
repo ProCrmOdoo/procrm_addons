@@ -37,7 +37,7 @@
         id="menu_deal_type"
         name="Deal type"
         parent="crm.crm_menu_config"
-        sequence="23"
+        sequence="21"
         action="action_deal_type"
     />
 </odoo>
