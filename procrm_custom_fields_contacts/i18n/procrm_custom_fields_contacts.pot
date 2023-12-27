@@ -1,0 +1,841 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* procrm_custom_fields_contacts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-22 16:46+0000\n"
+"PO-Revision-Date: 2023-12-22 16:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__client_bonus
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__commercial_offer
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__good_hour
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_sale_order__client_bonus
+msgid "'-' if not available"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Additional info"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Basic information"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_bonus_for_recom
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__bonus_for_recom
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__bonus_for_recom
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__bonus_for_recom
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_bonus_for_recom
+msgid "Bonus for recom"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__process_architecture
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__process_architecture
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__process_architecture
+msgid "Camunda"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_client_type
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_client_type
+msgid "Client Type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__client_bonus
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__client_bonus
+msgid "Client bonus"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__client_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__client_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__client_type
+msgid "Client type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__comment_to_payment
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__comment_to_payment
+msgid "Comment to payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__commercial_offer
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__commercial_offer
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__commercial_offer
+msgid "Commercial offer"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__contact_link
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__contact_link
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__contact_link
+msgid "Contact link"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Control"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_cooper_term
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__cooper_term
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__cooper_term
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__cooper_term
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_cooper_term
+msgid "Cooper term"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__date_next_contract
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__date_next_contract
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__date_next_contract
+msgid "Date next contract"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_deal_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__deal_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__deal_type
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_deal_type
+msgid "Deal type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__description
+msgid "Description"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Documents"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Facebook
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Facebook
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Facebook
+msgid "Facebook"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__form_of_payment
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__form_of_payment
+msgid "Form of payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_form_payment
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_form_payment
+msgid "Form payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__good_hour
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__good_hour
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__good_hour
+msgid "Good hour"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__how_are_bp_described
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__how_are_bp_described
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__how_are_bp_described
+msgid "How are bp described"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__number_of_users
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__number_of_users
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__number_of_users
+msgid "How many users are planned?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__id
+msgid "ID"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Instagram
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Instagram
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Instagram
+msgid "Instagram"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "License"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_license_buy
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__license_buy
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__license_buy
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__license_buy
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_license_buy
+msgid "License buy"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__license_end_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__license_end_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__license_end_date
+msgid "License end date"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__license_key
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__license_key
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__license_key
+msgid "License key"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_license_now
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__license_now
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__license_now
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__license_now
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_license_now
+msgid "License now"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__license_start_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__license_start_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__license_start_date
+msgid "License start date"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__description
+msgid "Link"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__more_source
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__more_source
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__more_source
+msgid "More source"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_motives
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__motives
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__motives
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__motives
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_motives
+msgid "Motives"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_next_opportunity__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_traffic_source__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_use_in_work__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_departments__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_important__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_is_your_cms__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_what_services__name
+msgid "Name"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Need"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_next_opportunity
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_payment_method
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__next_opportunity
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_next_opportunity
+msgid "Next opportunity"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_partner
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_partner
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Partner"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__partner_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__partner_type
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__partner_type
+msgid "Partner type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__payment_method
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__payment_method
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_payment_method
+msgid "Payment method"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_portal_address
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__portal_address
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__portal_address
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__portal_address
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_portal_address
+msgid "Portal address"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Potential"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__process_architecture
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__process_architecture
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__process_architecture
+msgid "Process architecture"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__promo_code
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__promo_code
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__promo_code
+msgid "Promo code"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_receive_leads
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_receive_leads
+msgid "Receive Leads"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__receive_a_Leads
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__receive_a_Leads
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__receive_a_Leads
+msgid "Receive a Leads"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__receive_a_Leads_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__receive_a_Leads_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__receive_a_Leads_other
+msgid "Receive a leads - other"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Recommendation"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__recommendation_from
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__recommendation_from
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__recommendation_from
+msgid "Recommendation from"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__referral_link
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__referral_link
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__referral_link
+msgid "Referral link"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__referral_suffix
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__referral_suffix
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__referral_suffix
+msgid "Referral suffix"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_res_partner
+msgid "Res partner Sequences"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__services
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__services
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__services
+msgid "Services"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Skype
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Skype
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Skype
+msgid "Skype"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__special_conditions
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__special_conditions
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__special_conditions
+msgid "Special conditions"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__strategy
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__strategy
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__strategy
+msgid "Strategy"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Telegram
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Telegram
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Telegram
+msgid "Telegram"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_traffic_source
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__traffic_source
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__traffic_source
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__traffic_source
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_traffic_source
+msgid "Traffic source"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_use_in_work
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__use_in_work
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__use_in_work
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__use_in_work
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_use_in_work
+msgid "Use in work"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__use_in_work_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__use_in_work_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__use_in_work_other
+msgid "Use in work - other"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Viber
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Viber
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Viber
+msgid "Viber"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__video_meeting
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__video_meeting
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__video_meeting
+msgid "Video meeting"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_departments
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_what_departments
+msgid "What Departments"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__departments_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__departments_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__departments_other
+msgid "What departments (Other)?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_departments
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_departments
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_departments
+msgid "What departments?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_crm_lead__services
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_partner__services
+#: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__services
+msgid "What does company really do?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_is_important
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_what_is_important
+msgid "What is important"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_is_important_consult
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_is_important_consult
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_is_important_consult
+msgid "What is important consult?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_is_important
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_is_important
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_is_important
+msgid "What is important?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_is_important_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_is_important_other
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_is_important_other
+msgid "What is important? - Other"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_is_your_CMS
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_is_your_CMS
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_is_your_CMS
+msgid "What is your CMS?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_is_your_cms
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_what_is_your_cms
+msgid "What is your cms"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_services
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_what_services
+msgid "What services"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_services
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__what_services
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__what_services
+msgid "What services?"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_bonus_for_recom
+msgid "bonus.for.recom"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_client_type
+msgid "client.type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_cooper_term
+msgid "cooper.term"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_deal_type
+msgid "deal.type"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_form_payment
+msgid "form.payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_license_buy
+msgid "license.buy"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_license_now
+msgid "license.now"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_motives
+msgid "motives"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_next_opportunity
+msgid "next.opportunity"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_partner
+msgid "partner"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_payment_method
+msgid "payment.method"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_portal_address
+msgid "portal.address"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_receive_leads
+msgid "receive.leads"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_traffic_source
+msgid "traffic.source"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_use_in_work
+msgid "use.in.work"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_what_departments
+msgid "what.departments"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_what_is_important
+msgid "what.is.important"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_what_is_your_cms
+msgid "what.is.your.cms"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_what_services
+msgid "what.services"
+msgstr ""

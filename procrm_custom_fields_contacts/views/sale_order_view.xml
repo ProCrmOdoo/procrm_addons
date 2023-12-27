@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_sale_order_form">
+            <field name="name">view_sale_order_form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//sheet/group/group[2]" position="after">
+                    <group name="payment">
+                        <field name="deal_type" />
+                        <field name="comment_to_payment" />
+                        <field name="payment_method" />
+                        <field name="form_of_payment" />
+                        <field name="client_bonus" />
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

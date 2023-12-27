@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_crm_lead_form">
+            <field name="name">view_crm_lead_form</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//sheet/group/group[5]" position="after">
+                    <group name="social">
+                        <field name="traffic_source" />
+                        <field name="more_source" />
+                        <field name="deal_type" attrs="{'invisible': [('type','=', 'lead')]}" />
+                        <field name="Facebook" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                        <field name="Telegram" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                        <field name="Instagram" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                        <field name="Viber" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                        <field name="Skype" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                    </group>
+                </xpath>
+
+                <xpath expr="//sheet/notebook/page[@name='internal_notes']" position="before">
+                    <page string="Basic information" name="Basic information" autofocus="autofocus">
+                        <group name="Basic information" col="2">
+                            <group string="Potential" name="potential" priority="1">
+                                <field name="client_type" />
+                                <field name="motives" widget="many2many_tags" />
+                                <field name="services" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                            </group>
+                            <group string="Need" name="need" priority="2">
+                                <field name="what_departments" widget="many2many_tags" />
+                                <field name="departments_other" />
+                                <field name="what_is_your_CMS" widget="many2many_tags" />
+                                <field name="use_in_work" widget="many2many_tags" />
+                                <field name="use_in_work_other" />
+                                <field name="how_are_bp_described" />
+                                <field name="receive_a_Leads" widget="many2many_tags" />
+                                <field name="receive_a_Leads_other" />
+                                <field name="what_is_important" widget="many2many_tags" />
+                                <field name="what_is_important_other" />
+                                <field name="number_of_users" />
+                                <field name="what_is_important_consult" widget="url" />
+                            </group>
+                            <group string="License" name="license" priority="3">
+                                <field name="license_now" widget="many2many_tags" />
+                                <field
+                                    name="license_buy"
+                                    widget="many2many_tags"
+                                    attrs="{'invisible': [('type','=', 'lead')]}"
+                                />
+                                <field name="license_start_date" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="license_end_date" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="portal_address" />
+                                <field name="license_key" />
+                            </group>
+                            <group string="Payment" name="payment" priority="4">
+                                <field name="cooper_term" widget="many2many_tags" />
+                                <field name="comment_to_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="payment_method" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="form_of_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="client_bonus" attrs="{'invisible': [('type','=', 'lead')]}" />
+                            </group>
+                            <group
+                                string="Documents"
+                                name="documents"
+                                priority="5"
+                                attrs="{'invisible': [('type','=', 'lead')]}"
+                            >
+                                <field name="process_architecture" widget="url" />
+                                <field name="video_meeting" widget="url" />
+                                <field name="good_hour" widget="url" />
+                                <field name="commercial_offer" widget="url" />
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Additional info" name="additional_info">
+                        <group name="additional_info" col="2">
+                            <group string="Partner" name="partner" priority="1">
+                                <field name="partner_type" />
+                                <field name="what_services" widget="many2many_tags" />
+                                <field name="referral_suffix" />
+                                <field name="referral_link" widget="url" />
+                                <field name="promo_code" />
+                            </group>
+                            <group string="Recommendation" name="recommendation" priority="2">
+                                <field name="recommendation_from" />
+                                <field name="bonus_for_recom" />
+                                <field name="special_conditions" />
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Control" name="control" attrs="{'invisible': [('type','=', 'lead')]}">
+                        <group name="control">
+                            <field name="next_opportunity" widget="many2many_tags" />
+                            <field name="date_next_contract" />
+                            <field name="strategy" />
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

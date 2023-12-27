@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="receive_leads_form" model="ir.ui.view">
+        <field name="name">receive.leads.form</field>
+        <field name="model">receive.leads</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="receive_leads_tree" model="ir.ui.view">
+        <field name="name">receive.leads.tree</field>
+        <field name="model">receive.leads</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_receive_leads" model="ir.actions.act_window">
+        <field name="name">Receive Leads</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">receive.leads</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_receive_leads"
+        name="Receive Leads"
+        parent="crm.crm_menu_config"
+        sequence="27"
+        action="action_receive_leads"
+    />
+</odoo>
