@@ -6,12 +6,79 @@
             <field name="model">hr.applicant</field>
             <field name="inherit_id" ref="hr_recruitment.hr_applicant_view_form"/>
             <field name="arch" type="xml">
-                <field name="job_id" position="attributes">
-                    <attributes name="invisible">1</attributes>
-                </field>
+                <!--                <xpath expr="//group[1]" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='email_cc']" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='partner_phone']" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='partner_mobile']" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='type_id']" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//group[2]" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='job_id']" position="attributes">-->
+                <!--                    <attribute name="invisible">1</attribute>-->
+                <!--                </xpath>-->
+
+
+                <xpath expr="//form" position="inside">
+                    <notebook>
+                        <page name="basic" string="Basic information">
+                            <group name="candidate_contact_information" string="Candidate contact information">
+                                <field name="partner_id"/>
+                                <field name="email_from" widget="email"/>
+                                <field name="email_cc"/>
+                                <field name="partner_phone" widget="phone"/>
+                                <field name="partner_mobile" widget="phone"/>
+                                <field name="type_id" placeholder="Degree"/>
+                                <!--                                <field name="position"/>-->
+                            </group>
+                            <group name="contract" string="Contract">
+                                <label for="salary_expected"/>
+                                <div class="o_row">
+                                    <field name="salary_expected"/>
+                                    <span attrs="{'invisible':[('salary_expected_extra','=',False)]}">+</span>
+                                    <field name="salary_expected_extra" placeholder="Extra advantages..."/>
+                                </div>
+                                <label for="salary_proposed"/>
+                                <div class="o_row">
+                                    <field name="salary_proposed"/>
+                                    <span attrs="{'invisible':[('salary_proposed_extra','=',False)]}">+</span>
+                                    <field name="salary_proposed_extra" placeholder="Extra advantages..."/>
+                                </div>
+                                <field name="availability"/>
+                                <field name="experience"/>
+                                <field name="recommendation"/>
+                            </group>
+                            <group name="vacancy" string="Vacancy">
+                                <field name="job_id"/>
+                                <field name="department_id"/>
+                                <field name="candidate_questionnaire" widget="url"/>
+                                <field name="interview_file" widget="url"/>
+                            </group>
+                        </page>
+                        <page name="detail" string="Detail">
+                            <group>
+                                <field name="categ_ids" widget="many2many_tags"
+                                       options="{'color_field': 'color', 'no_create_edit': True}"/>
+                                <field name="user_id" domain="[('share', '=', False)]"/>
+                                <field name="priority" widget="priority"/>
+                                <field name="medium_id"/>
+                                <field name="source_id"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </xpath>
             </field>
         </record>
     </data>
 </odoo>
 
-    <!--                <xpath expr="//field[@name='job_id']" position="after">-->

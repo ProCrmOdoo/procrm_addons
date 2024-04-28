@@ -7,3 +7,5 @@ class ProjectProject(models.Model):
     sales_manager_id = fields.Many2one(
         comodel_name="res.users", string="Sales manager"
     )
+    test = fields.Char()
+
