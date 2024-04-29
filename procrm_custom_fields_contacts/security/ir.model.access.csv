@@ -18,3 +18,4 @@ access_license_buy,license.buy,model_license_buy,base.group_user,1,1,1,1
 access_portal_address,portal.address,model_portal_address,base.group_user,1,1,1,1
 access_cooper_term,cooper.term,model_cooper_term,base.group_user,1,1,1,1
 access_what_services,what.services,model_what_services,base.group_user,1,1,1,1
+access_hr_position,hr.position,model_hr_position,base.group_user,1,1,1,1

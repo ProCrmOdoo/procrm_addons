@@ -1,7 +1,7 @@
 {
     "name": "Contacts custom fields contacts",
     "license": "LGPL-3",
-    "version": "14.0.2.0.0",
+    "version": "14.0.2.0.1",
     "author": "YevdokimovA",
     "application": "True",
     "depends": ["base", "web", "crm", "sale", "project", "hr_recruitment"],
@@ -30,8 +30,9 @@
         "views/contact_info_cooper_term_view.xml",
         "views/contact_info_what_services_view.xml",
         "views/project_task_view.xml",
-        # "views/project_project_view.xml",
+        "views/project_project_view.xml",
         "views/hr_applicant_view.xml",
+        "views/hr_position_view.xml",
     ],
     "installable": True,
 }

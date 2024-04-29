@@ -4,17 +4,17 @@
         <record model="ir.ui.view" id="view_partner_form">
             <field name="name">view_contact_info_partner_form</field>
             <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="inherit_id" ref="base.view_partner_form" />
             <field name="arch" type="xml">
                 <xpath expr="//sheet/group/group[2]" position="after">
                     <group name="social">
-                        <field name="traffic_source"/>
-                        <field name="more_source"/>
-                        <field name="Facebook"/>
-                        <field name="Telegram"/>
-                        <field name="Instagram"/>
-                        <field name="Viber"/>
-                        <field name="Skype"/>
+                        <field name="traffic_source" />
+                        <field name="more_source" />
+                        <field name="Facebook" />
+                        <field name="Telegram" />
+                        <field name="Instagram" />
+                        <field name="Viber" />
+                        <field name="Skype" />
                     </group>
                 </xpath>
 
@@ -22,11 +22,11 @@
                     <page string="Basic information" name="basic_information" autofocus="autofocus">
                         <group name="Basic information" col="2">
                             <group string="Potential/importantly" name="potential/importantly" priority="1">
-                                <field name="client_type"/>
-                                <field name="motives" widget="many2many_tags"/>
-                                <field name="what_is_important" widget="many2many_tags"/>
-                                <field name="number_of_users" attrs="{'invisible': [('is_company','=', False)]}"/>
-                                <field name="services"/>
+                                <field name="client_type" />
+                                <field name="motives" widget="many2many_tags" />
+                                <field name="what_is_important" widget="many2many_tags" />
+                                <field name="number_of_users" attrs="{'invisible': [('is_company','=', False)]}" />
+                                <field name="services" />
                                 <field
                                     name="what_is_important_consult"
                                     widget="url"
@@ -34,14 +34,14 @@
                                 />
                             </group>
                             <group string="Need" name="need" priority="2">
-                                <field name="what_departments" widget="many2many_tags"/>
-                                <field name="what_is_your_CMS" widget="many2many_tags"/>
-                                <field name="use_in_work" widget="many2many_tags"/>
-                                <field name="how_are_bp_described"/>
-                                <field name="receive_a_Leads" widget="many2many_tags"/>
+                                <field name="what_departments" widget="many2many_tags" />
+                                <field name="what_is_your_CMS" widget="many2many_tags" />
+                                <field name="use_in_work" widget="many2many_tags" />
+                                <field name="how_are_bp_described" />
+                                <field name="receive_a_Leads" widget="many2many_tags" />
                             </group>
                             <group string="Payment" name="payment" priority="3">
-                                <field name="cooper_term" widget="many2many_tags"/>
+                                <field name="cooper_term" widget="many2many_tags" />
                             </group>
                             <group
                                 string="Documents"
@@ -49,28 +49,28 @@
                                 priority="4"
                                 attrs="{'invisible': [('type','=', 'lead')]}"
                             >
-                                <field name="process_architecture" widget="url"/>
-                                <field name="video_meeting" widget="url"/>
-                                <field name="good_hour" widget="url"/>
-                                <field name="commercial_offer" widget="url"/>
+                                <field name="process_architecture" widget="url" />
+                                <field name="video_meeting" widget="url" />
+                                <field name="good_hour" widget="url" />
+                                <field name="commercial_offer" widget="url" />
                             </group>
                             <group string="License" name="license" priority="5">
-                                <field name="license_now" widget="many2many_tags"/>
+                                <field name="license_now" widget="many2many_tags" />
                                 <field
                                     name="license_buy"
                                     widget="many2many_tags"
                                     attrs="{'invisible': [('type','=', 'lead')]}"
                                 />
-                                <field name="license_start_date" attrs="{'invisible': [('type','=', 'lead')]}"/>
-                                <field name="license_end_date" attrs="{'invisible': [('type','=', 'lead')]}"/>
-                                <field name="portal_address"/>
-                                <field name="license_key"/>
+                                <field name="license_start_date" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="license_end_date" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="portal_address" />
+                                <field name="license_key" />
                             </group>
                             <group string="Other" name="other" priority="6">
-                                <field name="what_is_important_other"/>
-                                <field name="departments_other"/>
-                                <field name="use_in_work_other"/>
-                                <field name="receive_a_Leads_other"/>
+                                <field name="what_is_important_other" />
+                                <field name="departments_other" />
+                                <field name="use_in_work_other" />
+                                <field name="receive_a_Leads_other" />
                             </group>
                         </group>
                     </page>
@@ -78,24 +78,24 @@
                     <page string="Additional info" name="additional_info">
                         <group name="additional_info" col="2">
                             <group string="Partner" name="partner" priority="1">
-                                <field name="partner_type"/>
-                                <field name="what_services" widget="many2many_tags"/>
-                                <field name="referral_suffix"/>
-                                <field name="referral_link" widget="url"/>
-                                <field name="promo_code"/>
+                                <field name="partner_type" />
+                                <field name="what_services" widget="many2many_tags" />
+                                <field name="referral_suffix" />
+                                <field name="referral_link" widget="url" />
+                                <field name="promo_code" />
                             </group>
                             <group string="Recommendation" name="recommendation" priority="2">
-                                <field name="recommendation_from"/>
-                                <field name="bonus_for_recom"/>
-                                <field name="special_conditions"/>
+                                <field name="recommendation_from" />
+                                <field name="bonus_for_recom" />
+                                <field name="special_conditions" />
                             </group>
                         </group>
                     </page>
                     <page string="Control" name="control">
                         <group name="control">
-                            <field name="date_next_contract"/>
-                            <field name="strategy"/>
-                            <field name="contact_link" widget="url"/>
+                            <field name="date_next_contract" />
+                            <field name="strategy" />
+                            <field name="contact_link" widget="url" />
                         </group>
                     </page>
                 </xpath>

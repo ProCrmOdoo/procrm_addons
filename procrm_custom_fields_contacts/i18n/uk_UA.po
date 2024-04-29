@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-22 16:47+0000\n"
-"PO-Revision-Date: 2023-12-22 16:47+0000\n"
+"POT-Creation-Date: 2024-04-29 11:40+0000\n"
+"PO-Revision-Date: 2024-04-29 11:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,13 @@ msgid "Additional info"
 msgstr "Додаткова інформація"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_hr_applicant
+msgid "Applicant"
+msgstr "Заявник"
+
+#. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Basic information"
 msgstr "Основна інформація"
@@ -54,6 +60,16 @@ msgstr "Бонус за рекомендацію"
 #: model:ir.model.fields,help:procrm_custom_fields_contacts.field_res_users__process_architecture
 msgid "Camunda"
 msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Candidate contact information"
+msgstr "Контактні дані кандидата"
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__candidate_questionnaire
+msgid "Candidate questionnaire"
+msgstr "Анкета кандидата"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_client_type
@@ -95,6 +111,11 @@ msgid "Contact link"
 msgstr "Посилання на контакт б24"
 
 #. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Contract"
+msgstr "Договір"
+
+#. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Control"
@@ -115,6 +136,7 @@ msgstr "Умови співпраці"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__create_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__create_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__create_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__create_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__create_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__create_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__create_uid
@@ -138,6 +160,7 @@ msgstr "Ким створено"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__create_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__create_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__create_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__create_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__create_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__create_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__create_date
@@ -156,6 +179,11 @@ msgid "Created on"
 msgstr "Коли створено"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_task__creator_id
+msgid "Creator"
+msgstr "Постановник"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__date_next_contract
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__date_next_contract
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__date_next_contract
@@ -171,11 +199,17 @@ msgid "Deal type"
 msgstr "Тип угоди"
 
 #. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Degree"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__description
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__description
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__description
@@ -193,12 +227,19 @@ msgid "Description"
 msgstr "Опис"
 
 #. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Detail"
+msgstr "Детально"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__display_name
@@ -206,6 +247,8 @@ msgstr "Опис"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_project__display_name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_task__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__display_name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__display_name
@@ -223,6 +266,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Documents"
 msgstr "Документи"
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__experience
+msgid "Experience"
+msgstr "Досвід роботи"
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Extra advantages..."
+msgstr "Додаткові переваги..."
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Facebook
@@ -255,7 +308,7 @@ msgstr "Година добра"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__how_are_bp_described
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__how_are_bp_described
 msgid "How are bp described"
-msgstr ""
+msgstr "Як описані бізнес-процеси, стандарти та регламенти Вашої компанії?"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__number_of_users
@@ -271,6 +324,8 @@ msgstr "Скільки планується користувачів?"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__id
@@ -278,6 +333,8 @@ msgstr "Скільки планується користувачів?"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_project__id
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_task__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__id
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order__id
@@ -298,12 +355,19 @@ msgid "Instagram"
 msgstr ""
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__interview_file
+msgid "Interview file"
+msgstr "Файл Інтерв'ю"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_bonus_for_recom____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_client_type____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives____last_update
@@ -311,6 +375,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_partner____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_payment_method____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_portal_address____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_project____last_update
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_task____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_receive_leads____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner____last_update
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_sale_order____last_update
@@ -329,6 +395,7 @@ msgstr "Востаннє модифіковано"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__write_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__write_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__write_uid
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__write_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__write_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__write_uid
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__write_uid
@@ -352,6 +419,7 @@ msgstr "Востаннє оновлено до"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__write_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__write_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__write_date
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__write_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__write_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__write_date
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__write_date
@@ -446,6 +514,7 @@ msgstr "Мотиви (в порядку важливості)"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_cooper_term__name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_deal_type__name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_form_payment__name
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_position__name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_buy__name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_license_now__name
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_motives__name
@@ -476,6 +545,12 @@ msgstr "Потреба"
 #: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_next_opportunity
 msgid "Next opportunity"
 msgstr "Наступна нагода потрібна?"
+
+#. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
+msgid "Other"
+msgstr "Інше"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_partner
@@ -515,10 +590,17 @@ msgid "Portal address"
 msgstr "Адреса порталу"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_hr_position
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__position
+#: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_hr_position
+msgid "Position"
+msgstr "Посада"
+
+#. module: procrm_custom_fields_contacts
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
-msgid "Potential"
-msgstr "Потенціал"
+msgid "Potential/importantly"
+msgstr "Потенціал/Важливо"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__process_architecture
@@ -526,6 +608,11 @@ msgstr "Потенціал"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__process_architecture
 msgid "Process architecture"
 msgstr "Архітектура процесів"
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_project_project
+msgid "Project"
+msgstr "Проект"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__promo_code
@@ -555,10 +642,11 @@ msgid "Receive a leads - other"
 msgstr "Звідки Ви отримуєте заявки Заявки / Ліди? - інше"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_hr_applicant__recommendation
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_crm_lead_form
 #: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_partner_form
 msgid "Recommendation"
-msgstr "Рекомендація"
+msgstr "Рекомендація кандидату"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__recommendation_from
@@ -592,6 +680,11 @@ msgid "Sales Order"
 msgstr "Замовлення на продаж"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_project__sales_manager_id
+msgid "Sales manager"
+msgstr "Менеджер з продажу"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__services
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__services
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__services
@@ -620,10 +713,20 @@ msgid "Strategy"
 msgstr "Порада(Стратегія) при наступному контакті"
 
 #. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_project_task
+msgid "Task"
+msgstr "Завдання"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Telegram
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Telegram
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Telegram
 msgid "Telegram"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_project_project__test
+msgid "Test"
 msgstr ""
 
 #. module: procrm_custom_fields_contacts
@@ -652,6 +755,11 @@ msgid "Use in work - other"
 msgstr "Чим користуєтесь в роботі? - інше"
 
 #. module: procrm_custom_fields_contacts
+#: model_terms:ir.ui.view,arch_db:procrm_custom_fields_contacts.view_hr_applicant_form
+msgid "Vacancy"
+msgstr "Вакансія"
+
+#. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__Viber
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__Viber
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__Viber
@@ -676,7 +784,7 @@ msgstr "Які відділи є в компанії?"
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_partner__departments_other
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_res_users__departments_other
 msgid "What departments (Other)?"
-msgstr "Які відділи є в компанії? -інше?"
+msgstr "Які відділи є в компанії? - інше"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.model.fields,field_description:procrm_custom_fields_contacts.field_crm_lead__what_departments
@@ -730,7 +838,7 @@ msgstr "Є сайт, яка CMS?"
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_is_your_cms
 #: model:ir.ui.menu,name:procrm_custom_fields_contacts.menu_what_is_your_cms
 msgid "What is your cms"
-msgstr "Є сайт, яка CMS??"
+msgstr "Є сайт, яка CMS?"
 
 #. module: procrm_custom_fields_contacts
 #: model:ir.actions.act_window,name:procrm_custom_fields_contacts.action_what_services
@@ -768,6 +876,11 @@ msgstr ""
 #. module: procrm_custom_fields_contacts
 #: model:ir.model,name:procrm_custom_fields_contacts.model_form_payment
 msgid "form.payment"
+msgstr ""
+
+#. module: procrm_custom_fields_contacts
+#: model:ir.model,name:procrm_custom_fields_contacts.model_hr_position
+msgid "hr.position"
 msgstr ""
 
 #. module: procrm_custom_fields_contacts

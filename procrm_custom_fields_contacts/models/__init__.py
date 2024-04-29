@@ -25,4 +25,5 @@ from . import (
     project_task,
     project_project,
     hr_applicant,
+    hr_position,
 )
