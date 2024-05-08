@@ -22,26 +22,40 @@
                 <xpath expr="//sheet/notebook/page[@name='internal_notes']" position="before">
                     <page string="Basic information" name="Basic information" autofocus="autofocus">
                         <group name="Basic information" col="2">
-                            <group string="Potential" name="potential" priority="1">
+                            <group string="Potential/importantly" name="potential/importantly" priority="1">
                                 <field name="client_type" />
                                 <field name="motives" widget="many2many_tags" />
-                                <field name="services" attrs="{'invisible': [('type','=', 'opportunity')]}" />
+                                <field name="what_is_important" widget="many2many_tags" />
+                                <field name="number_of_users" />
+                                <field name="services" />
+                                <field name="what_is_important_consult" widget="url" />
                             </group>
                             <group string="Need" name="need" priority="2">
                                 <field name="what_departments" widget="many2many_tags" />
-                                <field name="departments_other" />
                                 <field name="what_is_your_CMS" widget="many2many_tags" />
                                 <field name="use_in_work" widget="many2many_tags" />
-                                <field name="use_in_work_other" />
                                 <field name="how_are_bp_described" />
                                 <field name="receive_a_Leads" widget="many2many_tags" />
-                                <field name="receive_a_Leads_other" />
-                                <field name="what_is_important" widget="many2many_tags" />
-                                <field name="what_is_important_other" />
-                                <field name="number_of_users" />
-                                <field name="what_is_important_consult" widget="url" />
                             </group>
-                            <group string="License" name="license" priority="3">
+                            <group string="Payment" name="payment" priority="3">
+                                <field name="cooper_term" widget="many2many_tags" />
+                                <field name="comment_to_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="payment_method" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="form_of_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
+                                <field name="client_bonus" attrs="{'invisible': [('type','=', 'lead')]}" />
+                            </group>
+                            <group
+                                string="Documents"
+                                name="documents"
+                                priority="4"
+                                attrs="{'invisible': [('type','=', 'lead')]}"
+                            >
+                                <field name="process_architecture" widget="url" />
+                                <field name="video_meeting" widget="url" />
+                                <field name="good_hour" widget="url" />
+                                <field name="commercial_offer" widget="url" />
+                            </group>
+                            <group string="License" name="license" priority="5">
                                 <field name="license_now" widget="many2many_tags" />
                                 <field
                                     name="license_buy"
@@ -53,23 +67,11 @@
                                 <field name="portal_address" />
                                 <field name="license_key" />
                             </group>
-                            <group string="Payment" name="payment" priority="4">
-                                <field name="cooper_term" widget="many2many_tags" />
-                                <field name="comment_to_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
-                                <field name="payment_method" attrs="{'invisible': [('type','=', 'lead')]}" />
-                                <field name="form_of_payment" attrs="{'invisible': [('type','=', 'lead')]}" />
-                                <field name="client_bonus" attrs="{'invisible': [('type','=', 'lead')]}" />
-                            </group>
-                            <group
-                                string="Documents"
-                                name="documents"
-                                priority="5"
-                                attrs="{'invisible': [('type','=', 'lead')]}"
-                            >
-                                <field name="process_architecture" widget="url" />
-                                <field name="video_meeting" widget="url" />
-                                <field name="good_hour" widget="url" />
-                                <field name="commercial_offer" widget="url" />
+                            <group string="Other" name="other" priority="6">
+                                <field name="what_is_important_other" />
+                                <field name="departments_other" />
+                                <field name="use_in_work_other" />
+                                <field name="receive_a_Leads_other" />
                             </group>
                         </group>
                     </page>

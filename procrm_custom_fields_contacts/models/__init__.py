@@ -22,4 +22,8 @@ from . import (
     contact_info_portal_address,
     contact_info_cooper_term,
     contact_info_what_services,
+    project_task,
+    project_project,
+    hr_applicant,
+    hr_position,
 )
