@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-inherit="mail.DiscussSidebar" t-inherit-mode="extension" owl="1" priority="99">
+        <xpath
+            expr="//t[@t-foreach='getMultiLivechatGroups()']//div[hasclass('o_DiscussSidebar_groupHeaderItem')]"
+            position="after"
+        >
+            <div class="o-autogrow" />
+            <div
+                class="o_DiscussSidebar_groupHeaderItem fa fa-minus"
+                t-on-click="_triggerDiscussSidebarGroupLiveChat"
+            />
+        </xpath>
+    </t>
+</templates>
