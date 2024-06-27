@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-inherit="mail.DiscussSidebar" t-inherit-mode="extension" owl="1">
+        <xpath
+            expr="//div[hasclass('o_DiscussSidebar_groupChat')]/div/div[hasclass('o_DiscussSidebar_groupHeaderItemAdd')]"
+            position="before"
+        >
+            <div class="o_DiscussSidebar_groupHeaderItem fa fa-minus" t-on-click="_triggerDiscussGroupChat" />
+        </xpath>
+
+        <xpath
+            expr="//div[hasclass('o_DiscussSidebar_groupChat')]/div[hasclass('o_DiscussSidebar_list')]"
+            position="attributes"
+        >
+            <attribute name="t-if">discuss.isHideGroupChat</attribute>
+        </xpath>
+    </t>
+</templates>
