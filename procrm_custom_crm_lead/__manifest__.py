@@ -4,7 +4,7 @@
     "version": "14.0.1.0.0",
     "author": "YevdokimovA",
     "application": "True",
-    "depends": ["base", "web", "crm", "sale", "document_page", "document_page_project"],
+    "depends": ["base", "web", "crm", "sale", "document_page"],
     "data": [
         "views/crm_lead_view.xml",
         "views/document_page_view.xml",
