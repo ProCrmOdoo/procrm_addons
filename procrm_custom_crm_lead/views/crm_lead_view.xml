@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_crm_lead_form">
+            <field name="name">view_crm_lead_form</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form" />
+            <field name="arch" type="xml">
+                <div name="button_box" position="inside">
+                    <button name="action_knowledge_count" type="object" class="oe_stat_button" icon="fa-book">
+                        <div class="o_stat_info">
+                            <field name="knowledge" class="o_stat_value" />
+                            <span class="o_stat_text">Knowledge</span>
+                        </div>
+                    </button>
+                </div>
+            </field>
+        </record>
+    </data>
+</odoo>

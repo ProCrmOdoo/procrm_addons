@@ -1,0 +1,64 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* procrm_custom_crm_lead
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 14:23+0000\n"
+"PO-Revision-Date: 2024-06-24 14:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: procrm_custom_crm_lead
+#: model_terms:ir.ui.view,arch_db:procrm_custom_crm_lead.view_crm_lead_form
+msgid "<span class=\"o_stat_text\">Knowledge</span>"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_document_page__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model,name:procrm_custom_crm_lead.model_document_page
+msgid "Document Page"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_crm_lead__id
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_document_page__id
+msgid "ID"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_crm_lead__knowledge
+msgid "Knowledge"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_document_page____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_document_page__lead_id
+msgid "Lead"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model,name:procrm_custom_crm_lead.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr ""
+
+#. module: procrm_custom_crm_lead
+#: model:ir.model.fields,field_description:procrm_custom_crm_lead.field_crm_lead__document_page_ids
+msgid "Wiki"
+msgstr ""
